@@ -14,8 +14,8 @@ import (
 	//	"strings"
 	"time"
 
-	"github.com/anvie/port-scanner/predictors"
-	"github.com/anvie/port-scanner/predictors/webserver"
+	"github.com/EugeneKorneev/port-scanner/predictors"
+	"github.com/EugeneKorneev/port-scanner/predictors/webserver"
 )
 
 type PortScanner struct {
@@ -149,6 +149,8 @@ func (h PortScanner) PredictUsingPredictor(host string) string {
 	}
 	return UNKNOWN
 }
+
+// TODO https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%BE%D1%80%D1%82%D0%BE%D0%B2_TCP_%D0%B8_UDP
 
 var KNOWN_PORTS = map[int]string{
 	27017: "mongodb [ http://www.mongodb.org/ ]",
