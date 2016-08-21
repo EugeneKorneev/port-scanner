@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"strings"
 	"time"
-	"github.com/anvie/port-scanner/predictors"
+	"github.com/EugeneKorneev/port-scanner/predictors"
 //	"fmt"
 )
 
