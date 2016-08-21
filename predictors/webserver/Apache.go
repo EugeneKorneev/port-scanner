@@ -5,7 +5,7 @@ import (
 	"strings"
 	"io/ioutil"
 	"time"
-	"github.com/anvie/port-scanner/predictors"
+	"github.com/EugeneKorneev/port-scanner/predictors"
 )
 
 type ApachePredictor struct {
