@@ -4,7 +4,7 @@ Installation
 --------------
 
 ```bash
-$ go get github.com/anvie/port-scanner
+$ go get github.com/EugeneKorneev/port-scanner
 ```
 
 Example Usage
@@ -15,7 +15,7 @@ package main
 
 import (
     "fmt"
-	"github.com/anvie/port-scanner"
+	"github.com/EugeneKorneev/port-scanner"
 )
 
 func main(){
